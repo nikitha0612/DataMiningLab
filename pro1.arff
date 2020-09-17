@@ -1,0 +1,15 @@
+@relation Student
+
+
+@attribute name STRING
+@attribute age NUMERIC
+@attribute yearofpassout {2020,2021,2022}
+@attribute rollnumber NUMERIC
+@attribute branch {CSE,ECE,EEE,IT}
+@attribute dateofbirth date "yyyy-MM-dd"
+
+
+@data
+nikitha,20,2021,507,CSE,"1999-12-06"
+sam,20,2021,516,CSE,"2000-08-01"
+harshini,20,2021,522,CSE,"2000-04-17"
